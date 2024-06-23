@@ -1,0 +1,17 @@
+.home-page {
+  /* margin-top: 20px; */
+  height: 100vh;
+  background-image: url("../../assets/HomeBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home-page p {
+  margin: 0;
+  font-size: 60px;
+  font-family: "Poppins";
+}

@@ -1,0 +1,76 @@
+.register-page {
+  height: 100vh;
+  background-image: url("../../assets/registerBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.top span {
+  color: white;
+  font-size: small;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.top span a {
+  font-weight: 500;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.two-forms {
+  display: flex;
+  gap: 10px;
+}
+
+.input-field {
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  height: 50px;
+  width: 100%;
+  padding: 0 10px 0 45px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.form-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 512px;
+  height: 420px;
+  overflow: hidden;
+  z-index: 2;
+  justify-content: center;
+}
+
+.register-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+}
+
+header {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 30px 0;
+}
+
+.input-box i {
+  position: relative;
+  top: -35px;
+  left: 17px;
+  color: #fff;
+}
